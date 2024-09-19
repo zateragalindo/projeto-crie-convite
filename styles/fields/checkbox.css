@@ -1,0 +1,64 @@
+
+.input-colors {
+  display: flex;
+  gap: 1rem;
+
+  & [type="checkbox"] {
+    width: 3rem;
+    height: 3rem;
+
+    border: 4px solid var(--shape-button);
+    border-radius: 50%;
+  }
+
+  & input[type="checkbox"] {
+    &:hover, &:focus {
+      border: 4px solid;
+      border-color: var(--brand-light);
+    }
+  }
+
+  & [id="purple"] {
+    background-color: var(--purple);
+  }
+
+  & [id="fuschia"] {
+    background-color: var(--fuschia);
+  }
+
+  & [id="pink"] {
+    background-color: var(--pink);
+  }
+
+  & [id="orange"] {
+    background-color: var(--orange);
+  }
+
+  & [id="yellow"] {
+    background-color: var(--yellow);
+  }
+
+  & [id="lime"] {
+    background-color: var(--lime);
+  }
+
+  & [id="green"] {
+    background-color: var(--green);
+  }
+
+  & [id="cyan"] {
+    background-color: var(--cyan);
+  }
+
+  & [id="navy"] {
+    background-color: var(--navy);
+  }
+
+  & [id="red"] {
+    background-color: red;
+  }
+
+  & [id="white"] {
+    background-color: white;
+  }
+}

@@ -25,7 +25,7 @@
   --brand-mid: #3487CF;
   --brand-dark: #1D6FB6;
 
-  --puple: #B259FF;
+  --purple: #B259FF;
   --fuschia: #FF59F9;
   --pink: #FF598B;
   --orange: #FF8B59;
@@ -57,4 +57,8 @@ body {
   font-size: 1.6rem;
 
   background-color: var(--bg-color);
+}
+
+img {
+  max-width: 100%;
 }

@@ -1,0 +1,53 @@
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.6rem;
+}
+
+.card {
+  height: 11rem;
+  border: 2px solid var(--shape-button);
+  border-radius: 8px;
+  background-color: var(--shape-button);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+
+  position: relative;
+  z-index: 1;
+  
+  & [type="checkbox"] {
+    all: unset;
+    inset: 0;
+  }
+
+  &:hover, &:focus {
+    border: 4px solid;
+    border-color: var(--brand-light);
+  }
+}
+.card img {
+  object-fit: cover;
+  overflow: hidden;
+  
+  padding: .5rem;
+  border-radius: .8rem;
+
+  position: absolute;
+  inset: 0;
+
+}
+.card-footer {
+  position: relative;
+  bottom: -6rem;
+  
+  text-align: center;
+  
+  & h3 {
+    text-align: center;
+    font: var(--font-heading-sm);
+    color: var(--text-heading);   
+  }
+}
+
