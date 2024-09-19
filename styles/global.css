@@ -18,7 +18,7 @@
 
   --text-xs: 400 1.2rem/120% var(--font-opensans);
   --text-sm: 400 1.4rem/120% var(--font-opensans);
-  --text-md: 400 1.6 rem/120% var(--font-opensans);
+  --text-md: 400 1.6rem/120% var(--font-opensans);
 
   /* Colors */
   --brand-light: #59B2FF;
@@ -49,9 +49,12 @@
   --text-body: #C8CDD0;
   --text-heading: #F9F9F9;
 
+  --bg-color: #29292E;
 
 }
 
 body {
   font-size: 1.6rem;
+
+  background-color: var(--bg-color);
 }

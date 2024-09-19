@@ -1,0 +1,61 @@
+
+#app {
+  max-width: 130rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 30% 68%;
+  gap: 2rem;
+  height: 100vh;
+  overflow: hidden;
+
+  background-color: #1E1E1E;
+  padding: 2rem;
+  border-radius: 2rem;;
+}
+
+aside {
+  background-image: url(../assets/Background.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 1.2rem;
+  
+  & .aside-container {
+    margin-left: auto;
+    padding: 3.2rem;
+
+    & img {
+      width: 4.5rem;
+      height: 4.5rem;
+    }
+
+    & h1 {
+      font: var(--font-logo);
+      color: var(--pink);
+
+      margin-top: 1.6rem;
+      margin-bottom: .4rem;
+    }
+
+    & p {
+      font: var(--text-md);
+      color: var(--text-heading);
+    }
+  }
+}
+
+main {
+  overflow: auto;
+  
+  & .main-container {
+    background-color: var(--shape-body);
+    border-radius: 1.2rem;
+    padding: 8rem 13rem;  
+
+    & h2 {
+      font: var(--font-heading-md);
+      color: var(--text-heading);
+      margin-bottom: 4rem;
+    }
+  } 
+}

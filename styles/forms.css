@@ -1,0 +1,27 @@
+@import url(fields/index.css);
+
+fieldset {
+  border: none;
+  display: grid;
+  gap: 1rem;
+
+  & legend {
+
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+
+    font: var(--font-heading-md);
+    color: var(--text-heading);
+
+    margin-bottom: 2.43rem;
+
+    & svg path {
+      width: 3.4rem;
+      height: 3.4rem;
+
+      stroke: var(--input-placeholder);
+    }
+  }
+  
+}
