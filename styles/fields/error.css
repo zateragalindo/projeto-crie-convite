@@ -1,0 +1,15 @@
+
+.error {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  margin-top: -1rem;
+  margin-bottom: 2rem;
+
+  & p {
+    font: var(--text-md);
+    color: var(--danger);
+  }
+  
+}

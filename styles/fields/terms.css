@@ -1,0 +1,44 @@
+
+.terms {
+
+  display: flex;
+  gap: 1rem;
+
+  
+  label {
+    font: var(--text-sm);
+    color: var(--text-body);
+    align-content: center;
+  }
+
+  span {
+    color: var(--brand-light);
+  }
+
+  & [type="checkbox"] {
+    width: 1rem;
+    height: 1rem;
+
+    border: 2px solid var(--shape-button);
+    border-radius: .8rem;
+  }
+
+  & input[type="checkbox"]:hover, 
+  & input[type="checkbox"]:focus {
+
+    background-image: url(../../assets/icons/check.svg);
+
+    border: 2px solid;
+    border-color: var(--brand-light);
+
+    & svg path {
+      stroke: var(--brand-light);
+    }
+  }
+}
+
+.terms-container {
+  margin-top: 4rem;
+  padding-top: 4rem;
+  border-top: 1px solid var(--input-stroke);
+}
